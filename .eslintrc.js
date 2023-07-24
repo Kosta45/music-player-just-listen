@@ -11,6 +11,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  quotes: ["error", "single"],
   plugins: ['react'],
   rules: {
     'max-len': 0,
